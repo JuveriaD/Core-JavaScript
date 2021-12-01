@@ -1,3 +1,6 @@
+// ==============
+// EXAMPLE 1
+// ==============
 let num = 7;
 
 // Without Ternary Operator...
@@ -29,3 +32,4 @@ let status = 'offline';
 // One-liner using Ternary Operator...
 let color = status === 'offline' ? 'red' : 'green';
 console.log(color);
+// condition? ifTrue : ifFalse;

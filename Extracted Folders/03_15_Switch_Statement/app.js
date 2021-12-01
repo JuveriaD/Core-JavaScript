@@ -1,3 +1,25 @@
+// It is case-sensitive
+
+// syntax :
+// switch(expression){
+
+// 	case expression 1:
+// 		block of statement 1;
+// 		break;
+// 	case expression 2:
+// 		block of statement 2;
+// 		break;
+// 	case expression 3:
+// 		block of statement 3;
+// 		break;
+// 	.
+// 	.
+// 	.
+// 	default:
+// 		default block of instructions;
+// }
+
+// EXAMPLE 1
 let day = 7;
 
 // USING TRADITIONAL CONDITIONAL....
@@ -69,4 +91,20 @@ switch (emoji) {
 	case 'lips':
 		console.log('red');
 		break;
+}
+
+// EXAMPLE 3
+let myAge = 18;
+switch (myAge) {
+	case 18:
+		console.log("You are teenager!");
+		break;
+	case 25:
+		console.log("You are Adult!");
+		break;
+	case 58:
+		console.log("You are too old!");
+		break;
+	default:
+		console.log("What is your age?");
 }

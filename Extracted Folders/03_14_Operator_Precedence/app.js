@@ -25,4 +25,3 @@ let x = 7;
         console.log("Higher precedence will execute first")
     }
 
-// Note: MDN has a table chart of operators & their precedence
