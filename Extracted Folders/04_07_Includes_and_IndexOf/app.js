@@ -18,3 +18,21 @@ if (ingredients.includes('flour')) {
 if (ingredients.indexOf('shrimp') !== -1) {
 	console.log('Sorry, I hate shrimp.');
 }
+
+
+// ====
+// Example 2
+// ====
+let ingredients = [
+	'water',
+	'juice',
+	'flour',
+	'cheese',
+	'butter'
+];
+console.log(ingredients.includes('fish'))
+// False
+
+//indexOf (returns index number ,position number)
+console.log(ingredients.indexOf('cheese')) 
+// 3
