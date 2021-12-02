@@ -7,8 +7,10 @@ const student = {
 		final   : 88
 	}
 };
+console.log(student);
 
 const avg = (student.exams.midterm + student.exams.final) / 2;
+console.log('Average Exam marks =',avg);
 
 const shoppingCart = [
 	{
@@ -27,6 +29,7 @@ const shoppingCart = [
 		quantity : 2
 	}
 ];
+console.log(shoppingCart);
 
 const game = {
 	player1 : {
@@ -39,3 +42,4 @@ const game = {
 	},
 	board   : [ [ 'O', null, 'X' ], [ 'X', 'O', 'X' ], [ null, 'O', 'X' ] ]
 };
+console.log(game);

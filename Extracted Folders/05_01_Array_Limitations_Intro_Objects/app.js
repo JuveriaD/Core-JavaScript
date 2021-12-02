@@ -5,10 +5,10 @@
 //index 1: total floors
 //etc.
 const fitbitData = [ 308756, 1814, 211 ];
-
+console.log(fitbitData);
 //We have no insight into WHAT we are storing at each index
 
 //And we could mess things up super easily if we're not careful
 const lucyFitbitData = [ 12344, 1814, 211 ];
-
+console.log(lucyFitbitData);
 // OBJECTS TO THE RESCUE!

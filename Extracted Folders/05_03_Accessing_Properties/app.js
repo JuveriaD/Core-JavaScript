@@ -3,14 +3,36 @@ const palette = {
 	yellow : '#f9ca24',
 	blue   : '#30336b'
 };
+console.log(palette);
 
 //DOT NOTATION
-palette.red; //'#eb4d4b'
+console.log(palette.red); //'#eb4d4b'
 
 //SQUARE BRACKET NOTATION
-palette['yellow']; //'#f9ca24'
+console.log(palette['yellow']); //'#f9ca24'
 
 //With square brackets, we can also use dynamic key names:
 
 let mysteryColor = 'blue';
-palette[mysteryColor]; //'#30336b'
+console.log(mysteryColor);
+
+console.log(palette[mysteryColor]); //'#30336b'
+
+
+
+// =====
+// Example of scope identifier
+// =====
+
+// global scope variable myName
+const myName = 'Jim';
+console.log(myName);
+if (myName){
+	// myName ='Joe'
+	// console.log(myName);
+	//Assignment to constant error
+	
+	// local scope variable myName
+	let myName = 'Jeff';
+	console.log(myName);//Jeff
+}
