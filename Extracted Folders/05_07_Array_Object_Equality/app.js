@@ -22,3 +22,18 @@ if (user.notifications === []) {
 if (!user.notifications.length) {
 	console.log('NO NEW NOTIFICATIONS!');
 }
+
+
+// =====
+// Example of scope identifier
+// =====
+const myName = 'Jim';
+console.log(myName);
+if (myName){
+	// myName ='Joe'
+	// console.log(myName);
+	//Assignment to constant error
+
+	let myName = 'Jeff';
+	console.log(myName);//Jeff
+}
