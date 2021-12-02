@@ -13,6 +13,7 @@ const gameBoard = [
 	[ 8, 32, 16, 4 ],
 	[ 2, 8, 4, 2 ]
 ];
+console.log(gameBoard);
 
 let totalScore = 0;
 //outer loop iterates through the rows
@@ -23,3 +24,4 @@ for (let i = 0; i < gameBoard.length; i++) {
 		totalScore += row[j];
 	}
 }
+console.log(`Sum of 2048 board = ${totalScore}`);

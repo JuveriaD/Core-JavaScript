@@ -1,6 +1,7 @@
 // ======= EXAMPLE 1 ==========
-// Printing each element in an array
+// Printing each element out of an array
 const examScores = [ 98, 77, 84, 91, 57, 66 ];
+console.log(examScores);
 
 for (let i = 0; i < examScores.length; i++) {
 	console.log(i, examScores[i]);
@@ -26,6 +27,7 @@ const myStudents = [
 		grade     : 90
 	}
 ];
+console.log(myStudents);
 
 for (let i = 0; i < myStudents.length; i++) {
 	let student = myStudents[i];
@@ -35,22 +37,22 @@ for (let i = 0; i < myStudents.length; i++) {
 // ======= EXAMPLE 3 ==========
 // Averaging all grades in myStudents array
 let total = 0; //total will hold the sum of all grades
-
 for (let i = 0; i < myStudents.length; i++) {
 	let student = myStudents[i];
 	total += student.grade; //add each grade to total
 }
-console.log(total / myStudents.length); //divide by number of students
+console.log(total);
+console.log('Total Marks:',total / myStudents.length); //divide by number of students
+
 
 // ======= EXAMPLE 4 ==========
 // Reversing a string
 const word = 'stressed';
+console.log(word);
 
 let reversedWord = ''; //will hold reversed string
-
 //Loop backwards over the string
 for (let i = word.length - 1; i >= 0; i--) {
 	reversedWord += word[i]; //add each char to reversedWord
 }
-
 console.log(reversedWord);

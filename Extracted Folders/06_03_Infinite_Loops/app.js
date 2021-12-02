@@ -1,4 +1,4 @@
-// DON'T RUN THIS!
+//! DON'T RUN THIS!
 // for (let i = 1; i !== 20; i += 2) {
 // 	console.log(i);
 // }
@@ -8,7 +8,7 @@
 // 1,3,5,7,9,11,13,15,17,19,21,etc.
 // i never hits 20, so the loop condition is always true
 
-// Instead, write it this way:
-for (let i = 1; i <= 20; i += 2) {
+//* Instead, write it this way:
+for (let i = 1; i <= 20; i +=2) {
 	console.log(i);
 }
