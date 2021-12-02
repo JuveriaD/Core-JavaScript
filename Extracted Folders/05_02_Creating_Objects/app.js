@@ -11,3 +11,4 @@ const fitBitData = {
 	workoutsThisWeek : '5 of 7',
 	avgGoodSleep     : '2:13'
 };
+console.log(fitBitData);
