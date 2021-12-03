@@ -7,7 +7,10 @@ for (let i = 0; i < subreddits.length; i++) {
 for (let sub of subreddits) {
 	console.log(sub);
 }
+console.log(subreddits.join());
+
 //Works with other iterables, like strings!
+let jo=[];
 for (let char of 'cockadoodledoo') {
 	console.log(char.toUpperCase());
 }

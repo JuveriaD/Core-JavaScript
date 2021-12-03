@@ -7,7 +7,7 @@ for (let i = 0; i < magicSquare.length; i++) {
 	for (let j = 0; j < row.length; j++) {
 		sum += row[j];
 	}
-	console.log(`${row} summed to ${sum}`);
+	console.log(`${row} summed to ${sum} with for `);
 }
 
 // Much cleaner version using a for...of
@@ -16,7 +16,7 @@ for (let row of magicSquare) {
 	for (let num of row) {
 		sum += num;
 	}
-	console.log(`${row} summed to ${sum}`);
+	console.log(`${row} summed to ${sum} with for..of`);
 }
 
 // EXAMPLE 2

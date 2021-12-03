@@ -24,8 +24,8 @@ for (let movie of Object.keys(movieReviews)) {
 // To calculate the average movie rating:
 const ratings = Object.values(movieReviews);
 let total = 0;
-for (let r of ratings) {
-	total += r;
+for (let star of ratings) {
+	total += star;
 }
 let avg = total / ratings.length;
 console.log('Average Rating: ', avg);
