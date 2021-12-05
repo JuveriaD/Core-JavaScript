@@ -6,9 +6,12 @@ function grumpus() {
 }
 // STEP 2: Call the function:
 grumpus();
-grumpus();
-grumpus();
+// grumpus();
+// grumpus();
+console.log("_ * _");// just to create space in between output in console
 
-for (let i = 0; i < 50; i++) {
+
+for (let i = 0; i < 10; i++) {
 	grumpus();
+	console.log("----");
 }
