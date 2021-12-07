@@ -10,3 +10,19 @@
 // isValidPassword('89Fjj1nms', 'dogLuvr');  //true
 // isValidPassword('dogLuvr123!', 'dogLuvr') //false
 // isValidPassword('hello1', 'dogLuvr') //false
+
+function isValidPassword(password, username) {
+	if (password.length< 8) {
+		return false;
+	}
+	if (password.indexOf(' ') !== -1) {
+		return false;
+	}
+	if (password.indexOf(username) !== -1) {
+		return false;
+	}
+	return true;
+	
+}
+console.log(isValidPassword("password123","my name"));//true
+console.log(isValidPassword("password 123","jhfswgsfgvfdvxcv"));//false
