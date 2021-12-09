@@ -11,7 +11,7 @@
 // isValidPassword('dogLuvr123!', 'dogLuvr') //false
 // isValidPassword('hello1', 'dogLuvr') //false
 
-function isValidPassword(password, username) {
+/* function isValidPassword(password, username) {
 	if (password.length< 8) {
 		return false;
 	}
@@ -23,6 +23,16 @@ function isValidPassword(password, username) {
 	}
 	return true;
 	
+} */
+//console.log(isValidPassword("password123","my name"));//true
+//console.log(isValidPassword("password 123","jhfswgsfgvfdvxcv"));//false
+
+
+function isValidPassword(password,username){
+if(password.length <= 8 && password.indexOf(' ') == -1 && password.indexOf(username))
+{
+return false;
 }
-console.log(isValidPassword("password123","my name"));//true
-console.log(isValidPassword("password 123","jhfswgsfgvfdvxcv"));//false
+return true;
+
+}
