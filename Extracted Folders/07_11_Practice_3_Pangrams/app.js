@@ -46,12 +46,25 @@ function isPangram(phrase) {
     return true;
 
 
-    // let lowerphrase = phrase.toLowerCase();
-	// for (var i = 0, Alphabet = charArray.length; i < Alphabet; i++) {
-		
-    //     if (!lowerphrase.includes(charArray[i])) {
-	// 		return false;
+		// let lowerphrase = phrase.toLowerCase();
+		// for (var i = 0, Alphabet = charArray.length; i < Alphabet; i++) {
+			
+		//     if (!lowerphrase.includes(charArray[i])) {
+		// 		return false;
+		// 	}
+		// }
+		// return true;
+
+
+	// 	let lowerphrase = phrase.toLowerCase();
+	// 	for (var i = 0; i < charArray.length; i++) {
+	// 		if (lowerphrase.indexOf(charArray[i])=== -1) {
+	// 			return false;
+	// 		}
 	// 	}
-	// }
-    // return true;
+	//     return true;
+
+
+
+	// ALL OF ABOVE COMMENTED CODE WORKS
 }
