@@ -36,14 +36,14 @@ function isPangram(phrase) {
 		'z'
 	];
 
-	let lowerphrase = phrase.toLowerCase();
-   let Alphabet = charArray.length;
-	for (var i = 0; i < Alphabet; i++) {
-		if (lowerphrase.indexOf(charArray[i])=== -1) {
-			return false;
-		}
-	}
-    return true;
+// 	let lowerphrase = phrase.toLowerCase();
+//    let Alphabet = charArray.length;
+// 	for (var i = 0; i < Alphabet; i++) {
+// 		if (lowerphrase.indexOf(charArray[i])=== -1) {
+// 			return false;
+// 		}
+// 	}
+//     return true;
 
 
 		// let lowerphrase = phrase.toLowerCase();
@@ -56,13 +56,13 @@ function isPangram(phrase) {
 		// return true;
 
 
-	// 	let lowerphrase = phrase.toLowerCase();
-	// 	for (var i = 0; i < charArray.length; i++) {
-	// 		if (lowerphrase.indexOf(charArray[i])=== -1) {
-	// 			return false;
-	// 		}
-	// 	}
-	//     return true;
+		let lowerphrase = phrase.toLowerCase();
+		for (var i = 0; i < charArray.length; i++) {
+			if (lowerphrase.indexOf(charArray[i])=== -1) {
+				return false;
+			}
+		}
+	    return true;
 
 
 
